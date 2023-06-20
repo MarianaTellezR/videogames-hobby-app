@@ -50,6 +50,7 @@ footer > a {
   max-width: 500px;
   padding: 20px;
   border-radius: 12px;
+  display: block;
   margin: 30px auto;
 }
 .theme-button {
@@ -142,4 +143,23 @@ footer > a {
   background: #e5cae8;
   color: #a452a6;
   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 19px;
+  }
+  button {
+    font-size: 17px;
+  }
+  footer,
+  footer > a {
+    font-size: 15px;
+  }
+  .dark button {
+    font-size: 17px;
+  }
 }
